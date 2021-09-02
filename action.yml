@@ -16,12 +16,12 @@ inputs:
     default: '5.13.2_5.4.132'
   auto_kernel:
     description: 'Auto use the latest kernel.'
-    required: false
+    required: true
     default: 'true'
   amlogic_size:
     description: 'Choose root size.'
     required: false
-    default: '1024'
+    default: '1792'
   armvirt64_path:
     description: 'Choose armvirt path.'
     required: false
